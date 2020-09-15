@@ -1,13 +1,11 @@
 version: '3'
 
-###
-Only needed if changing the default network
-networks:
-  default:
-    ipam:
-      config:
-        - subnet: 192.0.2.0/24
-###
+# Only needed if changing the default network
+# networks:
+#  default:
+#    ipam:
+#      config:
+#        - subnet: 192.0.2.0/24
 
 volumes:
   postgres_data: {}
